@@ -1,47 +1,17 @@
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
+        closeToOpen = {")": "(", "]": "[", "}": "{"}
 
         for c in s:
-            match c:
-                case "(":
-                    stack.append("(")
-                case ")":
-                    if stack:
-                        prevBracket = stack.pop()
-                        stack.append(prevBracket)
-
-                        if(prevBracket != "("):
-                            return False
-                        else:
-                            stack.pop()
-                    else:
-                        return False
-                case "{":
-                    stack.append("{")
-                case "}":
-                    if stack:
-                        prevBracket = stack.pop()
-                        stack.append(prevBracket)
-
-                        if(prevBracket != "{"):
-                            return False
-                        else:
-                            stack.pop()
-                    else:
-                        return False
-                case "[":
-                    stack.append("[")
-                case "]":
-                    if stack:
-                        prevBracket = stack.pop()
-                        stack.append(prevBracket)
-
-                        if(prevBracket != "["):
-                            return False
-                        else:
-                            stack.pop()
-                    else:
-                        return False
-
-        return not stack
+            if c in closeToOpen:
+                if stack and stack[-1] == closeToOpen[c]:
+                    stack.pop()
+                else:
+                    return False
+            else:
+                stack.append(c)
+            
+        return True if not stack else False
+        # print(stack
+        # return not stack

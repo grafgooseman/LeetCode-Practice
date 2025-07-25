@@ -44,3 +44,30 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/grafgooseman/LeetCode-Practice/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/grafgooseman/LeetCode-Practice/tree/master/0242-valid-anagram) |
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [1582-design-browser-history](https://github.com/grafgooseman/LeetCode-Practice/tree/master/1582-design-browser-history) |
+## Linked List
+|  |
+| ------- |
+| [1582-design-browser-history](https://github.com/grafgooseman/LeetCode-Practice/tree/master/1582-design-browser-history) |
+## Stack
+|  |
+| ------- |
+| [1582-design-browser-history](https://github.com/grafgooseman/LeetCode-Practice/tree/master/1582-design-browser-history) |
+## Design
+|  |
+| ------- |
+| [1582-design-browser-history](https://github.com/grafgooseman/LeetCode-Practice/tree/master/1582-design-browser-history) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [1582-design-browser-history](https://github.com/grafgooseman/LeetCode-Practice/tree/master/1582-design-browser-history) |
+## Data Stream
+|  |
+| ------- |
+| [1582-design-browser-history](https://github.com/grafgooseman/LeetCode-Practice/tree/master/1582-design-browser-history) |
+<!---LeetCode Topics End-->

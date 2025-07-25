@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0838-design-linked-list](https://github.com/grafgooseman/LeetCode-Practice/tree/master/0838-design-linked-list) |
 | [1582-design-browser-history](https://github.com/grafgooseman/LeetCode-Practice/tree/master/1582-design-browser-history) |
 ## Stack
 |  |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0838-design-linked-list](https://github.com/grafgooseman/LeetCode-Practice/tree/master/0838-design-linked-list) |
 | [1582-design-browser-history](https://github.com/grafgooseman/LeetCode-Practice/tree/master/1582-design-browser-history) |
 ## Doubly-Linked List
 |  |
